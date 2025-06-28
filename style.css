@@ -1,0 +1,428 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+    html,body{
+    width: 100%;
+    overflow-x: hidden;
+     
+ }
+
+.body{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+}
+.nav{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 40px;
+  
+    backdrop-filter: blur(20px);
+}
+.logo{
+    display: flex;
+    align-items: flex-end;
+    gap: 10px;
+    font-size: 20px;
+}
+.logo img{
+    width: 20px;
+
+}
+.btn{
+    
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+.btn button{
+    font-size: 20px;
+    background-color: transparent;
+    border: none;
+    
+}
+#sign {
+    background-color: #014EA8;
+    padding: 2px 10px;
+    border-radius: 5px;
+    color: white;
+}
+#live{
+    color: #014EA8;
+}
+.main{
+    position: relative;
+    height: 100vh;
+    margin-top: 6rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10vh;
+}
+.connent{
+    width: 100%;
+}
+.content h1{
+    font-weight: 300;
+    font-size: 100px;
+    line-height: 0.6;
+    text-align: center;
+    margin-top: 20px;
+   
+}
+.content span{
+    color: #014EA8;
+}
+.content h1:nth-child(2){
+    padding: 0 15rem;
+    line-height: 0.8;
+}
+.btn1 button{
+    background-color: #014EA8;
+    color: white;
+    border: none;
+    font-size: 25px;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+.bottom{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    gap: 5rem;
+    text-align: center;   
+}
+.bottom h1{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.side-text{
+  width: 14%;
+  position: absolute;
+  bottom: 50%;
+  right: 10%;
+}
+.side-text span{
+    color: blue ;
+}
+#menu{
+    display: none;
+}
+.spage{
+    width: 100%;
+    height: 100vh;
+}
+.svideo{
+    width: 100%;
+    padding: 2rem 20rem;  
+}
+#video{
+    width: 100%;
+    border-radius: 20px;
+}
+.stext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 1rem 24rem;
+}
+.stext h1{
+    font-size:40px;
+    font-weight: 600;
+    line-height: 1;
+    text-align: center;
+   
+}
+.stext span{
+    color:#014EA8;
+}
+.sbtn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.sbtn button{
+    background-color: #014EA8;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 12px 20px;
+    border-radius: 10px;
+}
+.tpage{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+    flex-wrap: wrap;
+    padding: 0 6rem;
+}
+
+.cards{
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+   
+}
+.cards >button{
+    padding: 10px 20px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 600;
+    border-radius: 10px;
+    border: none;
+    background-color: #014EA8;
+    color: white ;
+}
+.innercard{
+    width: 300px;
+    height: 400px;
+    background-color:#171717;
+    color: white;
+    border-radius: 20px;
+}
+.innercard img{
+    width: 100%;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+.innercard h1{
+    font-size: 20px;
+    font-weight: 600;   
+    margin-bottom: 10px;
+}
+
+.cardtext{
+    padding:0.5rem;
+}
+.tbtn button{
+    border-radius:8px;
+    border: none;
+    padding: 5px;
+}
+.tbtn  button:nth-child(1){
+    background-color: rgb(163, 36, 36);
+    color: white;
+}
+.underline{
+    text-decoration:line-through;
+    opacity: 0.4;
+}
+.card2 .cardtext .buy{
+    margin-top: 2.5rem;
+}
+.card .cardtext .buy{
+    margin-top: 4rem;
+}
+.buy{
+    margin-top: 5.5rem;
+    width: 100%;
+    
+}
+.buy h6{
+    display: block;
+    color: green;
+}
+.buybtn{
+
+    display: flex;
+    justify-content: space-between;
+}
+.buy .buybtn h4{
+    width: 15%;
+}
+.buy .buybtn button{
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+.fpage{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 2rem 0;
+}
+.ftext{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.ftext h1{
+    font-size: 40px;
+    font-weight: 500;
+    line-height: 1;
+    text-align: center;
+    width: 50%;
+}
+.fpage span{
+    color: #014EA8;
+}
+.fimage{
+    margin: 2.5rem 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.fimage img{
+    width: 80%;
+}
+.fbtn button{
+    background-color: #014EA8;
+    color: white;
+    border: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.lpage{
+    width: 98%;
+    border-top: 2px solid rgba(65, 64, 64, 0.589);
+    display: flex;
+    flex-direction: column;
+    padding: 5rem 0rem;
+    
+}
+.lpageimage{
+    width: 10%;
+}
+.lpage .top{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 2px solid rgba(65, 64, 64, 0.589);
+    padding-bottom: 5rem;
+}
+.lpage .top h4{
+   font-weight: 600;
+    padding: 1rem 0;
+}
+.lpage .top h5{
+    margin: 10px;
+}
+.lpage .top .left h4:nth-child(3){
+    font-size: 30px;
+    gap: 20px;
+}
+.lbottom{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+@media screen and (max-width: 500px) {
+    .nav{
+        padding: 20px 20px;
+    }
+    .logo{
+        font-size: 15px;
+    }
+    .logo img{
+        width: 15px;
+    }
+    .btn{
+     display: none;
+    }
+    .btn button{
+        font-size: 15px;
+    }
+    #menu{
+        display: block;
+    }
+    .content h1{
+        font-size: 45px;
+        font-weight: 400;
+        line-height: 0.1;
+    }
+    .content h1:nth-child(2){
+        padding: 0 1rem;
+        line-height: 0.8;
+    }
+    .side-text{
+        display: none;
+    }
+    .btn1 button{
+        font-size: 15px;
+        padding: 15px 40px;
+        
+    }
+    .bottom{
+        gap: 2rem;
+        padding: 5px 10px;
+    }
+    .bottom h1{
+        font-size: 15px;
+    }
+
+    .stext{
+        width: 100%;
+        padding: 0 1.3rem;
+        
+    }
+    .stext h1{
+        font-size: 20px;
+        font-weight: 600;
+        line-height: 1;
+        text-align: center;
+    }
+    .svideo{
+        padding: 2rem 1rem;
+        height: 300px;
+    }
+    .svideo iframe{
+        width: 100%;
+        height: 100%;
+    }
+    .sbtn button{
+        font-size: 15px;
+        padding: 10px 20px;
+    } 
+    .tpage{
+        min-height: 500px;
+        padding: 10px;
+        flex-wrap: nowrap;
+        flex-direction: row;
+        overflow-x: scroll;   
+    }
+    .tpage::-webkit-scrollbar {
+        display: none;
+    }
+    .fpage{
+        padding: 0;
+        min-height: auto;
+    }
+    .fpage h1{
+        width: 100%;
+        font-size: 30px;
+        text-align: center; 
+    }
+    .fpage button{
+        display: none;   
+    }
+    .lpage .top{
+        flex-direction: column;
+    
+    }
+}
+    
